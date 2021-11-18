@@ -1,12 +1,8 @@
-[![Discord Server](https://badgen.net/badge/discord/join%20chat/7289DA?icon=discord)](https://discord.gg/qSRMYmq)
-[![Download](https://img.shields.io/badge/nuget-download-blue)](https://www.nuget.org/packages/PixiEditor.ColorPicker/)
-[![Downloads](https://img.shields.io/nuget/dt/PixiEditor.ColorPicker)](https://www.nuget.org/packages/PixiEditor.ColorPicker/)
-
 # About
 
 A collection of WPF controls that let users choose colors in various ways. 
 Originally developed for [PixiEditor](https://github.com/PixiEditor/PixiEditor). 
-Supports .NET Framework 4.5+, .NET Core 3.1+, and .NET 5
+Supports .NET 6
 
 ![screenshot](https://i.imgur.com/RGdN0GY.png)
 
@@ -44,9 +40,6 @@ Add the controls
 <colorpicker:StandardColorPicker x:Name="main" />
 <colorpicker:PortableColorPicker ColorState="{Binding ElementName=main, Path=ColorState, Mode=TwoWay}"/>
 ```
-Note: in some configurations such as using the package in .NET Framework 4.7 XAML designer breaks and doesn't show the control.
-In my testing that did not affect the build process.
-
 # Properties<a name="properties">
 
 All controls share these properties:
